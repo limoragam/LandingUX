@@ -4,12 +4,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { IconComponent } from './icon/icon.component';
+import { LogoComponent } from './logo/logo.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    IconComponent
+    IconComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,

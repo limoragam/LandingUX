@@ -36,8 +36,8 @@ export class AppComponent {
     }
   }
 
-  getLogoWidth() {
-    return window.innerWidth <= 390 ? window.innerWidth*0.8 : 380;
+  getWidth() {
+    return window.innerWidth <= 390 ? window.innerWidth*0.7 + "px" : "320px";
   }
 
   getBoobyWidth() {
